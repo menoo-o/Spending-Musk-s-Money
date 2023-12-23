@@ -236,6 +236,12 @@ nav{
     
 }
 
+/* Add this CSS rule to your stylesheet */
+button, a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
 .pad-img{
    margin-top: 5px; 
 }
