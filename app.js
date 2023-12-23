@@ -63,6 +63,7 @@ function remainingMoney() {
         document.getElementById('paisa').textContent =  'You Spend All the money$';
     }else{
     
-    document.getElementById('paisa').textContent =  remainingBudget;
+        let formattedRemainingBudget = remainingBudget.toLocaleString();
+        document.getElementById('paisa').textContent = formattedRemainingBudget;
     }
 }
